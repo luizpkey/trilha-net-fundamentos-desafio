@@ -19,6 +19,7 @@ Estacionamento es = new Estacionamento(precoInicial, precoPorHora);
 string opcao = string.Empty;
 bool exibirMenu = true;
 
+List<string> veiculos = new List<string>();
 // Realiza o loop do menu
 while (exibirMenu)
 {
